@@ -1,0 +1,114 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.body {
+  margin: 20px 0;
+
+  font-family: 'Open Sans';
+  font-size: 15px;
+}
+
+.note {
+  margin: 20px 0;
+
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.primary {
+  color: #326C7A;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.gradient-block-white {
+  height: 15vh;
+
+  background: #001419;
+  background: -webkit-linear-gradient(#001419, #09343E, #326C7A, #8ABFCC, #CBEAF2, white);
+  background: -o-linear-gradient(#001419, #09343E, #326C7A, #8ABFCC, #CBEAF2, white);
+  background: -moz-linear-gradient(#001419, #09343E, #326C7A, #8ABFCC, #CBEAF2, white);
+  background: linear-gradient(#001419, #09343E, #326C7A, #8ABFCC, #CBEAF2, white);
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30vw;
+  margin-top: 12vh;
+  margin-right: 10vw;
+  padding-right: 2vw;
+
+  border-right: solid 2px #326C7A;
+
+  text-align: right;
+}
+
+.nav-link {
+  width: 100%;
+  margin: 1vh 0;
+  display: block;
+
+  text-align: right;
+  color: #888888;
+
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+
+.nav-link-text {
+  width: 100%;
+  margin: 1vh 0;
+  display: block;
+
+  text-align: right;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav-link:after {
+  text-decoration: none;
+}
+
+#splash {
+  height: 100vh;
+  background-color: #001419;
+
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-main {
+  height: 40vh;
+}
+
+.content {
+  width: 70vw;
+  padding: 0 5vw 0 12vw;
+}
+
+#about {
+  padding: 20vh 0;
+}
