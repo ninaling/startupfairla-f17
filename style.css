@@ -246,15 +246,13 @@ a.primary:after {
 }
 
 .org-logo-link {
-  height: 8vh;
-  max-width: 11vw;
-  margin: 10px 0;
+  width: 13vw;
+  margin: 1vh;
 }
 
 @media (max-width: 760px) {
   .org-logo-link {
-    height: 15vh;
-    max-width: 30vw;
+    width: 35vw;
   }
 }
 
