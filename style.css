@@ -14,8 +14,8 @@ hr {
 
 .title {
   font-family: 'Rubik';
-  font-size: 40px;
-  font-weight: 300;
+  font-size: 45px;
+  font-weight: 500;
 }
 
 .subtitle {
@@ -155,7 +155,6 @@ a.primary:after {
   justify-content: flex-end;
   align-items: center;
 
-  /*background-color: #001419;*/
   background: #001419;
   background: -webkit-linear-gradient(rgba(0, 20, 25, 1), rgba(0, 20, 25, 1), rgba(0, 20, 25, 0.8), rgba(0, 20, 25, 0.2), rgba(0, 20, 25, 0));
   background: -o-linear-gradient(rgba(0, 20, 25, 1), rgba(0, 20, 25, 1), rgba(0, 20, 25, 0.8), rgba(0, 20, 25, 0.2), rgba(0, 20, 25, 0));
@@ -189,7 +188,7 @@ a.primary:after {
   font-family: 'Rubik';
   text-align: right;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: none;
 }
 
@@ -268,7 +267,6 @@ a.primary:after {
 }
 
 .sponsors {
-  /*margin: 5vh 0;*/
   margin: 8vh 0;
 
   display: -webkit-flex;
@@ -283,37 +281,40 @@ a.primary:after {
   margin: 0.9vw;
 }
 
-#title {
+#title-sponsors {
   display: block;
   text-align: center;
 }
 
-#title img {
+#title-sponsors img {
   width: 35vw;
 }
 
-#platinum img, #platinum .spacer {
+#platinum-sponsors img, #platinum-sponsors .spacer {
   width: 25vw;
 }
 
-#gold img, #gold .spacer {
+#gold-sponsors img, #gold-sponsors .spacer {
   width: 17vw;
 }
 
-#silver img, #silver .spacer, #bronze img, #bronze .spacer {
+#silver-sponsors img, #silver-sponsors .spacer,
+#bronze-sponsors img, #bronze-sponsors .spacer {
   width: 13vw;
 }
 
 @media (max-width: 760px) {
-  #title img {
+  #title-sponsors img {
     width: 60vw;
   }
 
-  #platinum img, #platinum .spacer {
+  #platinum-sponsors img, #platinum-sponsors .spacer {
     width: 35vw;
   }
 
-  #gold img, #gold .spacer, #silver img, #silver .spacer, #bronze img, #bronze .spacer {
+  #gold-sponsors img, #gold-sponsors .spacer,
+  #silver-sponsors img, #silver-sponsors .spacer,
+  #bronze-sponsors img, #bronze-sponsors .spacer {
     width: 23vw;
   }
 }
