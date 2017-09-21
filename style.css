@@ -240,24 +240,35 @@ a.primary:after {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .org-logo-link {
-  width: 13vw;
+  height: 18vh;
   margin: 1vh;
 }
 
-@media (max-width: 760px) {
+.org-logo {
+  height: 100%;
+}
+
+@media (max-width: 1240px) {
   .org-logo-link {
-    width: 35vw;
+    height: 12vh;
   }
 }
 
-.org-logo {
-  width: 100%;
+@media (max-width: 760px) and (orientation: portrait) {
+  .org-logo-link {
+    height: 10vh;
+  }
+}
+
+@media (max-width: 760px) and (orientation: landscape) {
+  .org-logo-link {
+    height: 30vh;
+  }
 }
 
 .faq-question {
