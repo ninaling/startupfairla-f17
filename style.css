@@ -222,8 +222,8 @@ a.primary:after {
   padding: 0 20vw;
 }
 
-#about, #faq, #sponsors {
-  padding: 20vh 0;
+#about, #faqs, #sponsors {
+  padding: 15vh 0;
 }
 
 @media (max-width: 760px) {
@@ -231,7 +231,7 @@ a.primary:after {
     padding: 0 10vw;
   }
 
-  #about, #faq, #sponsors {
+  #about, #faqs, #sponsors {
     padding: 10vh 0;
   }
 }
@@ -299,6 +299,21 @@ a.primary:after {
 #silver-sponsors img, #silver-sponsors .spacer,
 #bronze-sponsors img, #bronze-sponsors .spacer {
   width: 13vw;
+}
+
+#footer {
+  padding-bottom: 5vh;
+
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  height: 6vh;
+  padding: 5px;
 }
 
 @media (max-width: 760px) {
