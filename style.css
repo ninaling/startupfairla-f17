@@ -30,8 +30,8 @@ hr {
   font-weight: 300;
 }
 
-.subtitle-small-arrow {
-  font-size: 20px;
+.subtitle-small-bullet {
+  font-size: 30px;
 }
 
 .body {
@@ -43,8 +43,8 @@ hr {
   color: #555555;
 }
 
-.body-arrow {
-  font-size: 12px;
+.body-bullet {
+  font-size: 15px;
 }
 
 .note {
@@ -69,8 +69,8 @@ hr {
     font-size: 23px;
   }
 
-  .subtitle-small-arrow {
-    font-size: 18px;
+  .subtitle-small-bullet {
+    font-size: 25px;
   }
 
   .body {
@@ -78,8 +78,8 @@ hr {
     font-size: 13px;
   }
 
-  .body-arrow {
-    font-size: 10px;
+  .body-bullet {
+    font-size: 15px;
   }
 
   .note {
@@ -312,6 +312,22 @@ a.primary:after {
   width: 13vw;
 }
 
+@media (max-width: 760px) {
+  #title-sponsors img {
+    width: 60vw;
+  }
+
+  #platinum-sponsors img, #platinum-sponsors .spacer {
+    width: 35vw;
+  }
+
+  #gold-sponsors img, #gold-sponsors .spacer,
+  #silver-sponsors img, #silver-sponsors .spacer,
+  #bronze-sponsors img, #bronze-sponsors .spacer {
+    width: 23vw;
+  }
+}
+
 #footer {
   padding-bottom: 5vh;
 
@@ -327,18 +343,8 @@ a.primary:after {
   padding: 5px;
 }
 
-@media (max-width: 760px) {
-  #title-sponsors img {
-    width: 60vw;
-  }
-
-  #platinum-sponsors img, #platinum-sponsors .spacer {
-    width: 35vw;
-  }
-
-  #gold-sponsors img, #gold-sponsors .spacer,
-  #silver-sponsors img, #silver-sponsors .spacer,
-  #bronze-sponsors img, #bronze-sponsors .spacer {
-    width: 23vw;
+@media (max-width: 760px) and (orientation: landscape) {
+  .footer-icon {
+    height: 10vh;
   }
 }
