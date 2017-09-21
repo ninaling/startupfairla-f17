@@ -253,9 +253,15 @@ a.primary:after {
   height: 100%;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1240px) and (orientation: portrait) {
   .org-logo-link {
     height: 12vh;
+  }
+}
+
+@media (max-width: 1240px) and (orientation: landscape) {
+  .org-logo-link {
+    height: 18vh;
   }
 }
 
