@@ -217,6 +217,11 @@ a.primary:after {
   height: 40vh;
 }
 
+#rsvp {
+  text-decoration: none;
+  color: inherit;
+}
+
 .content {
   width: 100vw;
   padding: 0 20vw;
