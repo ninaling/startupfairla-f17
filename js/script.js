@@ -1,4 +1,15 @@
+titleSponsor.forEach(function(company) { eachFun(company, "title"); });
+goldSponsors.forEach(function(company) { eachFun(company, "gold"); });
+for (var i = 0; i < 2; i++) {
+  document.querySelector('#gold-sponsors').innerHTML += "<div class='spacer'></div>";
+}
+bronzeSponsors.forEach(function(company) { eachFun(company, "bronze"); });
+for (var i = 0; i < 3; i++) {
+  document.querySelector('#bronze-sponsors').innerHTML += "<div class='spacer'></div>";
+}
+
 $(document).ready(function(){
+
   $(window).scroll(function() {
     if ($(window).scrollTop() > $(window).height()) {
       $("#top-link").fadeIn(300);
