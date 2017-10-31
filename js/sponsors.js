@@ -42,6 +42,13 @@ var goldSponsors = [
       url: "www.startupucla.com",
       body: "Startup UCLA is a program and resource on campus for students interested in entrepreneurship. We provide free services to UCLA students, alumni, and staff such as a co-working space, consulting meetings, and events and workshops.",
       positions: "Summer Accelerator Intern"
+  },
+  {
+      src: "voxelcloud.png",
+      alt: "VoxelCloud",
+      url: "voxelcloud.io",
+      body: "VoxelCloud is a leading startup in AI in medicine. We focus on providing automated diagnosis solutions based on medical images using AI. We have received 20+ million dollars funding so far from leading venture capitals like Sequoia Capital and Tencent Capital. Many major team members are from UCLA and we are also located in Westwood. We look for more amazing bruins to do amazing things together.",
+      positions: "Full time Machine Learning engineer."
   }
 ];
 
@@ -150,6 +157,27 @@ var bronzeSponsors = [
       url: "www.textpert.ai",
       body: "Textpert is AI for subjective problems. Our vision: use AI to enhance the way the world solves interpersonal problems and mental health issues. Textpert will allow humans to ask private and nuanced questions to an AI entity for the first time.",
       positions: "Part-time machine learning engineering intern (Winter/Spring), Full-time machine learning engineering intern (Summer), Part-time iOS front-end engineering intern (Winter/Spring), Full-time iOS front-end engineering intern (Summer)"
+  },
+  {
+      src: "tutorfly.png",
+      alt: "Tutorfly Inc.",
+      url: "tutorfly.org",
+      body: "Tutorfly is a peer to peer tutoring platform that is more effective and affordable than existing options.  We are rapidly growing and have a presence in the Bay Area, Los Angeles, and San Diego!",
+      positions: "Software engineering full-time/part-time/intern, Marketing Intern, Business Development Intern"
+  },
+  {
+      src: "rollingrobots.jpg",
+      alt: "Rolling Robots Inc.",
+      url: "RollingRobots.com",
+      body: "Rolling Robots provides the robotic entertainment and learning experience for kids age 4 to 16. We provide the most unique robot building, battling and coding activities - birthday party, play-date, workshop, field trip, competition team, and robotics and STEM camp.",
+      positions: "Robotics Instructor - full-time/part-time, Winter/Summer; Party Host - part-time/weekend, year round; Marketing Intern - part-time"
+  },
+  {
+      src: "pluto.png",
+      alt: "Pluto Money",
+      url: "www.gopluto.io",
+      body: "The best money management app for college students, supported by Queen City FinTech Incubator and Startup UCLA Accelerator! Achieve your saving goals by doing simple challenges tailored to your finances. Compare your finances & spending habits to similar peers, even on the same campus. Everything is automatically tracked for you with bank-level security.",
+      positions: "Marketing intern (ASAP, Winter Q), Campus ambassadors (ASAP, Winter Q), Part-time front-end development intern (ASAP, Winter Q)"
   }
 ];
 
